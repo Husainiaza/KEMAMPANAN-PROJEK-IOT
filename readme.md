@@ -89,9 +89,9 @@ client.publish("topicAnda/humid", String(humid));
 ## Section 3 : void loop - baca semua jenis analog sensor
 ### Contoh analog sensor LDR
 ```
-dataAnalog = analogRead(sensorLDR);
+int dataLDR = analogRead(pinSensorLDR);
 Serial.print("Cahaya: ");
-Serial.println(dataAnalog);  
+Serial.println(dataLDR);  
 
 client.publish("topicAnda/ldr", String(dataLDR));  
 ```
