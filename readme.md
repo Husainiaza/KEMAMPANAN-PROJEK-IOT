@@ -151,7 +151,7 @@ client.publish("topicAnda/ldr", String(dataLDR));
       {
         Serial.println(payload);
         digitalWrite(relay02,LOW);
-        Serial.println("Buzzer OFF");
+        Serial.println("socket2 OFF");
      
       }
   }
